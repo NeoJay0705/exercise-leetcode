@@ -57,4 +57,33 @@ public class MergeTwoSortedLists {
 
         return result;
     }
+
+    public ListNode mergeTwoLists_rec(ListNode l1, ListNode l2) {
+        ListNode result = new ListNode(0);
+        helper(l1, l2, result);
+        return result.next;
+    } 
+
+    public ListNode helper(ListNode l1, ListNode l2, ListNode result) {
+        if ( l1 == null && l2 != null ) {
+            result.next = l2;
+            l2 = null;
+        }
+        else if ( l1 != null && l2 == null ) {
+            result.next = l1;
+            l1 = null;
+        } 
+        if ( l1 == null && l2 == null ) return result;
+        
+        if ( l1.val < l2.val ) {
+            result.next = l1;
+            l1 = l1.next;
+        }
+        else {
+            result.next = l2;
+            l2 = l2.next;
+        }
+
+        return helper(l1, l2, result.next);
+    }
 }
