@@ -8,3 +8,15 @@
 If data structures used in your function are linkedlisted type not array types, using iterative to avoid uncertain length of your data to make stack overflow.
 
 But your data structures are array type, if using iterative, you have to create objects for each position. Furthermore, using recursive just assigns other indexes to the recursive function. Otherwise, the length of data are visible.
+
+# Memonization on Recursion
+Giving a record to recursion parameter can reduce duplicated computing or avoid stack overflow by using the record as a result with a tail recursion.
+
+# Tail Recursion
+A function call will be allocated a space for three componets return address, parameters, and local variables. 
+
+## With Non-Tail Recursion
+You write a recursive function with returning variables and the function togather. A stack have to store current information until the recursive function called in current epoch is finished.
+
+## With Tail Recursion
+You return a recursive function without any other things. Because the information in the current epoch is useless, the stack don't have to store the information in it. The benefit is to avoid stack overflow.
