@@ -1,6 +1,6 @@
 package org.exercise.algo.dfs;
 
-import org.exercise.inputs.IntArrInt;
+import org.exercise.zother.inputs.IntArrInt;
 
 // 494
 // Can improve 10%

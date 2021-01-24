@@ -1,7 +1,7 @@
 package org.exercise.linkedlist;
 
 import java.util.Stack;
-import org.exercise.inputs.Node;
+import org.exercise.zother.inputs.Node;
 
 // 430
 

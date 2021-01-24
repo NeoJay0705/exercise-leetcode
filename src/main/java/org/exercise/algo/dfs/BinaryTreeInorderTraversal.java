@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import org.exercise.inputs.TreeNode;
+import org.exercise.zother.inputs.TreeNode;
 
 // 94
 

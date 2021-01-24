@@ -3,7 +3,7 @@ package org.exercise.linkedlist;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.exercise.inputs.ListNode;
+import org.exercise.zother.inputs.ListNode;
 
 // 141
 

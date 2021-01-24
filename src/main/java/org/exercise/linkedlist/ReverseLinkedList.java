@@ -1,6 +1,6 @@
 package org.exercise.linkedlist;
 
-import org.exercise.inputs.ListNode;
+import org.exercise.zother.inputs.ListNode;
 
 public class ReverseLinkedList {
     public static void main(String[] args) {

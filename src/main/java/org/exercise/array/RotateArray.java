@@ -1,6 +1,6 @@
 package org.exercise.array;
 
-import org.exercise.inputs.IntArrInt;
+import org.exercise.zother.inputs.IntArrInt;
 
 // 189
 

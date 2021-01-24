@@ -1,6 +1,6 @@
 package org.exercise.algo.twopointer;
 
-import org.exercise.inputs.IntArrInt;
+import org.exercise.zother.inputs.IntArrInt;
 
 // 209
 
