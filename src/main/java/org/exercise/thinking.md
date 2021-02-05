@@ -20,3 +20,11 @@ You write a recursive function with returning variables and the function togathe
 
 ## With Tail Recursion
 You return a recursive function without any other things. Because the information in the current epoch is useless, the stack don't have to store the information in it. The benefit is to avoid stack overflow.
+
+# Back Tracking
+1. Do sth sequencally
+2. Check contents from previous results
+3. Store the result from sth 
+
+# Split Problem to sub-problem
+You should split the problem as small as possible. For example, Split a problem with minusing one of which complexity is O(n) or with dividing two of which complexity is O(logn).
